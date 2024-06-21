@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 The Nameless-AOSP Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<filter-conf>
+
+    <info version="2" timestamp="1718801195" />
+
+    <!-- Props to change starts -->
+    <propsToChange name="Generic" props="
+        TYPE:USER;
+        TAGS:release-keys
+    "/>
+    <propsToChange name="GMS" props="
+        PRODUCT:sailfish;
+        DEVICE:sailfish;
+        MANUFACTURER:Google;
+        BRAND:google;
+        MODEL:Pixel;
+        FINGERPRINT:google/sailfish/sailfish:8.1.0/OPM1.171019.011/4448085:user/release-keys;
+        [VERSION_STRING]INCREMENTAL:4448085;
+        [VERSION_STRING]RELEASE:8.1.0;
+        [VERSION_STRING]SECURITY_PATCH:2017-12-05;
+        [VERSION_INT]DEVICE_INITIAL_SDK_INT:25;
+        ID:OPM1.171019.011
+    "/>
+    <propsToChange name="Default" props="
+        BRAND:google;
+        MANUFACTURER:Google;
+        DEVICE:barbet;
+        PRODUCT:barbet;
+        HARDWARE:barbet;
+        MODEL:Pixel 5a;
+        ID:AP1A.240405.002;
+        FINGERPRINT:google/barbet/barbet:14/AP2A.240605.024/11860263:user/release-keys
+    "/>
+    <propsToChange name="Pixel8Pro" props="
+        BRAND:google;
+        MANUFACTURER:Google;
+        DEVICE:husky;
+        PRODUCT:husky;
+        HARDWARE:husky;
+        MODEL:Pixel 8 Pro;
+        ID:AP1A.240405.002;
+        FINGERPRINT:google/husky/husky:14/AP2A.240605.024/11860263:user/release-keys
+    "/>
+    <propsToChange name="PixelXL" props="
+        BRAND:google;
+        MANUFACTURER:Google;
+        DEVICE:marlin;
+        PRODUCT:marlin;
+        HARDWARE:marlin;
+        MODEL:Pixel XL;
+        ID:QP1A.191005.007.A3;
+        FINGERPRINT:google/marlin/marlin:10/QP1A.191005.007.A3/5972272:user/release-keys
+    "/>
+    <propsToChange name="BS4" props="
+        MANUFACTURER:blackshark;
+        MODEL:2SM-X706B
+    "/>
+    <propsToChange name="MI11TP" props="
+        MANUFACTURER:Xiaomi;
+        MODEL:2107113SI
+    "/>
+    <propsToChange name="MI13P" props="
+        MANUFACTURER:Xiaomi;
+        MODEL:2210132C
+    "/>
+    <propsToChange name="OP8P" props="
+        MANUFACTURER:OnePlus;
+        MODEL:IN2020
+    "/>
+    <propsToChange name="OP9P" props="
+        MANUFACTURER:OnePlus;
+        MODEL:LE2101
+    "/>
+    <propsToChange name="POCOF5" props="
+        MANUFACTURER:Xiaomi;
+        MODEL:23049PCD8G
+    "/>
+    <propsToChange name="ROG6" props="
+        MANUFACTURER:asus;
+        MODEL:ASUS_AI2201
+    "/>
+    <propsToChange name="XP5" props="
+        MANUFACTURER:Sony;
+        MODEL:SO-52A
+    "/>
+    <propsToChange name="XP1" props="
+        MANUFACTURER:Sony;
+        MODEL:XQ-BC52
+    "/>
+    <!-- Props to change ends -->
+
+    <!-- Props to keep starts -->
+    <propsToKeep package="com.google.android.settings.intelligence" props="
+        FINGERPRINT
+    "/>
+    <!-- Props to keep ends -->
+
+    <!-- Packages to change starts -->
+    <packagesToChange name="Pixel8Pro" packages="
+        com.google.android.apps.bard;
+        com.google.android.apps.customization.pixel;
+        com.google.android.apps.emojiwallpaper;
+        com.google.android.apps.nexuslauncher;
+        com.google.android.apps.privacy.wildlife;
+        com.google.android.apps.subscriptions.red;
+        com.google.android.apps.wallpaper;
+        com.google.android.apps.wallpaper.pixel;
+        com.google.android.googlequicksearchbox;
+        com.google.android.wallpaper.effects;
+        com.google.pixel.livewallpaper
+    "/>
+    <packagesToChange name="PixelXL" packages="
+        com.google.android.apps.photos
+    "/>
+    <packagesToChange name="BS4" game="true" packages="
+        com.proximabeta.mf.uamo
+    "/>
+    <packagesToChange name="MI11TP" game="true" packages="
+        com.ea.gp.apexlegendsmobilefps;
+        com.levelinfinite.hotta.gp;
+        com.supercell.clashofclans;
+        com.vng.mlbbvn
+    "/>
+    <packagesToChange name="MI13P" game="true" packages="
+        com.levelinfinite.sgameGlobal;
+        com.tencent.tmgp.sgame
+    "/>
+    <packagesToChange name="OP8P" game="true" packages="
+        com.netease.lztgglobal;
+        com.pubg.imobile;
+        com.pubg.krmobile;
+        com.rekoo.pubgm;
+        com.riotgames.league.wildrift;
+        com.riotgames.league.wildrifttw;
+        com.riotgames.league.wildriftvn;
+        com.riotgames.league.teamfighttactics;
+        com.riotgames.league.teamfighttacticstw;
+        com.riotgames.league.teamfighttacticsvn;
+        com.tencent.ig;
+        com.tencent.tmgp.pubgmhd;
+        com.vng.pubgmobile
+    "/>
+    <packagesToChange name="OP9P" game="true" packages="
+        com.epicgames.fortnite;
+        com.epicgames.portal;
+        com.tencent.lolm
+    "/>
+    <packagesToChange name="POCOF5" game="true" packages="
+        com.dts.freefiremax;
+        com.dts.freefireth;
+        com.mobile.legends
+    "/>
+    <packagesToChange name="ROG6" game="true" packages="
+        com.activision.callofduty.shooter;
+        com.ea.gp.fifamobile;
+        com.madfingergames.legends;
+        com.pearlabyss.blackdesertm;
+        com.pearlabyss.blackdesertm.gl
+    "/>
+    <packagesToChange name="XP5" game="true" packages="
+        com.garena.game.codm;
+        com.tencent.tmgp.kr.codm;
+        com.vng.codmvn
+    "/>
+    <packagesToChange name="XP1" game="true" packages="
+        com.gameloft.android.ANMP.GloftA9HM
+    "/>
+    <!-- Packages to change ends -->
+
+    <!--Packages to keep starts -->
+    <packagesToKeep packages="
+        com.google.android.apps.miphone.aiai.AiaiApplication;
+        com.google.android.apps.motionsense.bridge;
+        com.google.android.apps.pixelmigrate;
+        com.google.android.apps.recorder;
+        com.google.android.apps.restore;
+        com.google.android.apps.tachyon;
+        com.google.android.apps.tycho;
+        com.google.android.apps.wearables.maestro.companion;
+        com.google.android.apps.youtube.kids;
+        com.google.android.apps.youtube.music;
+        com.google.android.as;
+        com.google.android.dialer;
+        com.google.android.euicc;
+        com.google.android.setupwizard;
+        com.google.android.youtube;
+        com.google.ar.core;
+        com.google.oslo
+    "/>
+    <!--Packages to keep ends -->
+
+    <!--Extra packages to change starts -->
+    <extraPackagesToChange packages="
+        com.amazon.avod.thirdpartyclient;
+        com.android.chrome;
+        com.breel.wallpapers20;
+        com.disney.disneyplus;
+        com.microsoft.android.smsorganizer;
+        com.nhs.online.nhsonline;
+        com.nothing.smartcenter;
+        com.realme.link;
+        in.startv.hotstar;
+        jp.id_credit_sp2.android
+    "/>
+    <!--Extra packages to change ends -->
+
+    <!--Custom Google Camera package starts -->
+    <customGoogleCamera packages="
+        com.google.android.MTCL83;
+        com.google.android.UltraCVM;
+        com.google.android.apps.cameralite
+    "/>
+    <!--Custom Google Camera package ends -->
+
+</filter-conf>
