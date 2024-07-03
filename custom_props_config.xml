@@ -5,7 +5,7 @@
 -->
 <filter-conf>
 
-    <info version="2" timestamp="1718801195" />
+    <info version="2" timestamp="1719804437" />
 
     <!-- Props to change starts -->
     <propsToChange name="Generic" props="
@@ -32,8 +32,8 @@
         PRODUCT:barbet;
         HARDWARE:barbet;
         MODEL:Pixel 5a;
-        ID:AP1A.240405.002;
-        FINGERPRINT:google/barbet/barbet:14/AP2A.240605.024/11860263:user/release-keys
+        ID:AP2A.240705.004;
+        FINGERPRINT:google/barbet/barbet:14/AP2A.240705.004/11875680:user/release-keys
     "/>
     <propsToChange name="Pixel8Pro" props="
         BRAND:google;
@@ -42,8 +42,8 @@
         PRODUCT:husky;
         HARDWARE:husky;
         MODEL:Pixel 8 Pro;
-        ID:AP1A.240405.002;
-        FINGERPRINT:google/husky/husky:14/AP2A.240605.024/11860263:user/release-keys
+        ID:AP2A.240705.005;
+        FINGERPRINT:google/husky/husky:14/AP2A.240705.005/11942872:user/release-keys
     "/>
     <propsToChange name="PixelXL" props="
         BRAND:google;
