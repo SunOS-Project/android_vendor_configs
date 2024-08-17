@@ -5,7 +5,7 @@
 -->
 <filter-conf>
 
-    <info version="2" timestamp="1722537000" />
+    <info version="2" timestamp="1723891910" />
 
     <!-- Props to change starts -->
     <propsToChange name="Generic" props="
@@ -13,17 +13,14 @@
         TAGS:release-keys
     "/>
     <propsToChange name="GMS" props="
-        PRODUCT:sailfish;
-        DEVICE:sailfish;
+        PRODUCT:akita_beta;
+        DEVICE:akita;
         MANUFACTURER:Google;
         BRAND:google;
-        MODEL:Pixel;
-        FINGERPRINT:google/sailfish/sailfish:8.1.0/OPM1.171019.011/4448085:user/release-keys;
-        [VERSION_STRING]INCREMENTAL:4448085;
-        [VERSION_STRING]RELEASE:8.1.0;
-        [VERSION_STRING]SECURITY_PATCH:2017-12-05;
-        [VERSION_INT]DEVICE_INITIAL_SDK_INT:25;
-        ID:OPM1.171019.011
+        MODEL:Pixel 8a;
+        FINGERPRINT:google/akita_beta/akita:15/AP31.240617.015/12207491:user/release-keys;
+        [VERSION_STRING]SECURITY_PATCH:2024-08-05;
+        ID:AP31.240617.015
     "/>
     <propsToChange name="Default" props="
         BRAND:google;
