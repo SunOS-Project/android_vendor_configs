@@ -5,7 +5,7 @@
 -->
 <filter-conf>
 
-    <info version="2" timestamp="1727307139" />
+    <info version="2" timestamp="1728102304" />
 
     <!-- Props to change starts -->
     <propsToChange name="Generic" props="
@@ -13,13 +13,13 @@
         TAGS:release-keys
     "/>
     <propsToChange name="GMS" props="
-        PRODUCT:oriole_beta;
-        DEVICE:oriole;
+        PRODUCT:komodo_beta;
+        DEVICE:komodo;
         MANUFACTURER:Google;
         BRAND:google;
-        MODEL:Pixel 6;
-        FINGERPRINT:google/oriole_beta/oriole:15/AP41.240823.009/12329489:user/release-keys;
-        [VERSION_INT]DEVICE_INITIAL_SDK_INT:31;
+        MODEL:Pixel 9 Pro XL;
+        FINGERPRINT:google/komodo_beta/komodo:15/AP41.240823.009/12329489:user/release-keys;
+        [VERSION_INT]DEVICE_INITIAL_SDK_INT:32;
         [VERSION_STRING]INCREMENTAL:12329489;
         [VERSION_STRING]RELEASE:15;
         [VERSION_STRING]SECURITY_PATCH:2024-09-05;
