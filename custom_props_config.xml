@@ -5,7 +5,7 @@
 -->
 <filter-conf>
 
-    <info version="2" timestamp="1728102304" />
+    <info version="2" timestamp="1730513398" />
 
     <!-- Props to change starts -->
     <propsToChange name="Generic" props="
@@ -18,12 +18,12 @@
         MANUFACTURER:Google;
         BRAND:google;
         MODEL:Pixel 9 Pro XL;
-        FINGERPRINT:google/komodo_beta/komodo:15/AP41.240823.009/12329489:user/release-keys;
+        FINGERPRINT:google/komodo_beta/komodo:15/AP41.240925.009/12534705:user/release-keys;
         [VERSION_INT]DEVICE_INITIAL_SDK_INT:32;
-        [VERSION_STRING]INCREMENTAL:12329489;
+        [VERSION_STRING]INCREMENTAL:12534705;
         [VERSION_STRING]RELEASE:15;
-        [VERSION_STRING]SECURITY_PATCH:2024-09-05;
-        ID:AP41.240823.009
+        [VERSION_STRING]SECURITY_PATCH:2024-10-05;
+        ID:AP41.240925.009
     "/>
     <propsToChange name="Default" props="
         BRAND:google;
