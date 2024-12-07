@@ -5,7 +5,7 @@
 -->
 <filter-conf>
 
-    <info version="3" timestamp="1733566481" />
+    <info version="3" timestamp="1733566752" />
 
     <!-- Props to change starts -->
     <propsToChange name="Generic" props="
@@ -91,6 +91,14 @@
         MANUFACTURER:Sony;
         MODEL:XQ-BC52
     "/>
+    <propsToChange name="Meizu16P" props="
+        BRAND:meizu;
+        MANUFACTURER:Meizu;
+        DEVICE:m1892;
+        DISPLAY:Flyme;
+        PRODUCT:meizu_16thPlus_CN;
+        MODEL:meizu 16th Plus
+    "/>
     <!-- Props to change ends -->
 
     <!-- Props to keep starts -->
@@ -168,6 +176,15 @@
     "/>
     <packagesToChange name="XP1" gms="false" packages="
         com.gameloft.android.ANMP.GloftA9HM
+    "/>
+    <packagesToChange name="Meizu16P" gms="false" packages="
+        com.netease.cloudmusic;
+        com.tencent.qqmusic;
+        com.kugou.android;
+        com.kugou.android.lite;
+        cmccwm.mobilemusic;
+        cn.kuwo.player;
+        com.meizu.media.music
     "/>
     <!-- Packages to change ends -->
 
