@@ -5,7 +5,7 @@
 -->
 <filter-conf>
 
-    <info version="2" timestamp="1730513398" />
+    <info version="3" timestamp="1733566481" />
 
     <!-- Props to change starts -->
     <propsToChange name="Generic" props="
@@ -116,20 +116,20 @@
     <packagesToChange name="PixelXL" packages="
         com.google.android.apps.photos
     "/>
-    <packagesToChange name="BS4" game="true" packages="
+    <packagesToChange name="BS4" gms="false" packages="
         com.proximabeta.mf.uamo
     "/>
-    <packagesToChange name="MI11TP" game="true" packages="
+    <packagesToChange name="MI11TP" gms="false" packages="
         com.ea.gp.apexlegendsmobilefps;
         com.levelinfinite.hotta.gp;
         com.supercell.clashofclans;
         com.vng.mlbbvn
     "/>
-    <packagesToChange name="MI13P" game="true" packages="
+    <packagesToChange name="MI13P" gms="false" packages="
         com.levelinfinite.sgameGlobal;
         com.tencent.tmgp.sgame
     "/>
-    <packagesToChange name="OP8P" game="true" packages="
+    <packagesToChange name="OP8P" gms="false" packages="
         com.netease.lztgglobal;
         com.pubg.imobile;
         com.pubg.krmobile;
@@ -144,29 +144,29 @@
         com.tencent.tmgp.pubgmhd;
         com.vng.pubgmobile
     "/>
-    <packagesToChange name="OP9P" game="true" packages="
+    <packagesToChange name="OP9P" gms="false" packages="
         com.epicgames.fortnite;
         com.epicgames.portal;
         com.tencent.lolm
     "/>
-    <packagesToChange name="POCOF5" game="true" packages="
+    <packagesToChange name="POCOF5" gms="false" packages="
         com.dts.freefiremax;
         com.dts.freefireth;
         com.mobile.legends
     "/>
-    <packagesToChange name="ROG6" game="true" packages="
+    <packagesToChange name="ROG6" gms="false" packages="
         com.activision.callofduty.shooter;
         com.ea.gp.fifamobile;
         com.madfingergames.legends;
         com.pearlabyss.blackdesertm;
         com.pearlabyss.blackdesertm.gl
     "/>
-    <packagesToChange name="XP5" game="true" packages="
+    <packagesToChange name="XP5" gms="false" packages="
         com.garena.game.codm;
         com.tencent.tmgp.kr.codm;
         com.vng.codmvn
     "/>
-    <packagesToChange name="XP1" game="true" packages="
+    <packagesToChange name="XP1" gms="false" packages="
         com.gameloft.android.ANMP.GloftA9HM
     "/>
     <!-- Packages to change ends -->
