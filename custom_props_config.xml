@@ -5,7 +5,7 @@
 -->
 <filter-conf>
 
-    <info version="3" timestamp="1733566752" />
+    <info version="3" timestamp="1733915542" />
 
     <!-- Props to change starts -->
     <propsToChange name="Generic" props="
@@ -13,17 +13,17 @@
         TAGS:release-keys
     "/>
     <propsToChange name="GMS" props="
-        PRODUCT:komodo_beta;
-        DEVICE:komodo;
+        PRODUCT:oriole_beta;
+        DEVICE:oriole;
         MANUFACTURER:Google;
         BRAND:google;
-        MODEL:Pixel 9 Pro XL;
-        FINGERPRINT:google/komodo_beta/komodo:15/AP41.240925.009/12534705:user/release-keys;
-        [VERSION_INT]DEVICE_INITIAL_SDK_INT:32;
-        [VERSION_STRING]INCREMENTAL:12534705;
+        MODEL:Pixel 6;
+        FINGERPRINT:google/oriole_beta/oriole:15/BP11.241025.006/12620009:user/release-keys;
+        [VERSION_INT]DEVICE_INITIAL_SDK_INT:21;
+        [VERSION_STRING]INCREMENTAL:12620009;
         [VERSION_STRING]RELEASE:15;
-        [VERSION_STRING]SECURITY_PATCH:2024-10-05;
-        ID:AP41.240925.009
+        [VERSION_STRING]SECURITY_PATCH:2024-11-05;
+        ID:BP11.241025.006
     "/>
     <propsToChange name="Default" props="
         BRAND:google;
@@ -42,8 +42,8 @@
         PRODUCT:komodo;
         HARDWARE:komodo;
         MODEL:Pixel 9 Pro XL;
-        ID:AD1A.240905.004;
-        FINGERPRINT:google/komodo/komodo:14/AD1A.240905.004/12196292:user/release-keys
+        ID:AP3A.241105.008;
+        FINGERPRINT:google/komodo/komodo:15/AP3A.241105.008/12485168:user/release-keys
     "/>
     <propsToChange name="PixelXL" props="
         BRAND:google;
