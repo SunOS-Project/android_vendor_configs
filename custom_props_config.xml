@@ -5,7 +5,7 @@
 -->
 <filter-conf>
 
-    <info version="3" timestamp="1734801867" />
+    <info version="3" timestamp="1735049920" />
 
     <!-- Props to change starts -->
     <propsToChange name="Generic" props="
@@ -13,17 +13,17 @@
         TAGS:release-keys
     "/>
     <propsToChange name="GMS" props="
-        PRODUCT:tokay_beta;
-        DEVICE:tokay;
+        PRODUCT:lynx_beta;
+        DEVICE:lynx;
         MANUFACTURER:Google;
         BRAND:google;
-        MODEL:Pixel 9;
-        FINGERPRINT:google/tokay_beta/tokay:15/BP11.241025.006/12620009:user/release-keys;
+        MODEL:Pixel 7a;
+        FINGERPRINT:google/lynx_beta/lynx:15/BP11.241121.010/12780007:user/release-keys;
         [VERSION_INT]DEVICE_INITIAL_SDK_INT:21;
-        [VERSION_STRING]INCREMENTAL:12620009;
+        [VERSION_STRING]INCREMENTAL:12780007;
         [VERSION_STRING]RELEASE:15;
-        [VERSION_STRING]SECURITY_PATCH:2024-11-05;
-        ID:BP11.241025.006
+        [VERSION_STRING]SECURITY_PATCH:2024-12-05;
+        ID:BP11.241121.010
     "/>
     <propsToChange name="Default" props="
         BRAND:google;
