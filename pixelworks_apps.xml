@@ -5,7 +5,7 @@
 -->
 <filter-conf>
 
-    <info version="1" timestamp="1721639976" />
+    <info version="1" timestamp="1736683792" />
 
     <!--Config package switch callback-->
     <mConfigPackage rate="120" type="267-3-1">com.tencent.qqlive</mConfigPackage>
@@ -69,6 +69,7 @@
     <mConfigActivity type="258-40-0-0">com.google.android.youtube/com.google.android.apps.youtube.app.watchwhile.MainActivity</mConfigActivity>
     <mConfigActivity type="258-40-0-0">com.google.android.youtube/com.google.android.apps.youtube.app.watchwhile.InternalMainActivity</mConfigActivity>
     <mConfigActivity type="258-40-0-0">com.google.android.youtube/com.google.android.apps.youtube.app.extensions.reel.watch.activity.ReelWatchActivity</mConfigActivity>
+    <mConfigActivity type="258-40-0-0">com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity</mConfigActivity>
     <mConfigActivity type="258-74-0-0">com.netflix.mediaclient/o.Qd</mConfigActivity>
     <mConfigActivity type="258-74-0-0">com.netflix.mediaclient/o.Gl</mConfigActivity>
     <mConfigActivity type="258-74-0-0">com.netflix.mediaclient/com.netflix.mediaclient.ui.player.PlayerActivity</mConfigActivity>
