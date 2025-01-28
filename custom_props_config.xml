@@ -5,7 +5,7 @@
 -->
 <filter-conf>
 
-    <info version="3" timestamp="1738054313" />
+    <info version="3" timestamp="1738054974" />
 
     <!-- Props to change starts -->
     <propsToChange name="Generic" props="
@@ -60,10 +60,12 @@
         MODEL:2SM-X706B
     "/>
     <propsToChange name="MI11TP" props="
+        BRAND:Xiaomi;
         MANUFACTURER:Xiaomi;
         MODEL:2107113SI
     "/>
     <propsToChange name="MI13P" props="
+        BRAND:Xiaomi;
         MANUFACTURER:Xiaomi;
         MODEL:2210132C
     "/>
@@ -80,16 +82,20 @@
         MODEL:23049PCD8G
     "/>
     <propsToChange name="ROG6" props="
+        BRAND:asus;
+        DEVICE:AI2201;
         MANUFACTURER:asus;
         MODEL:ASUS_AI2201
     "/>
-    <propsToChange name="XP5" props="
-        MANUFACTURER:Sony;
-        MODEL:SO-52A
+    <propsToChange name="S24U" props="
+        BRAND:SAMSUNG;
+        DEVICE:S24 ULTRA;
+        MANUFACTURER:SM-S928B;
+        MODEL:SM-S928B
     "/>
-    <propsToChange name="XP1" props="
-        MANUFACTURER:Sony;
-        MODEL:XQ-BC52
+    <propsToChange name="Y700" props="
+        MANUFACTURER:lenovo;
+        MODEL:Lenovo TB-9707F
     "/>
     <propsToChange name="Meizu16P" props="
         BRAND:meizu;
@@ -139,18 +145,12 @@
     "/>
     <packagesToChange name="OP8P" gms="false" packages="
         com.netease.lztgglobal;
-        com.pubg.imobile;
-        com.pubg.krmobile;
-        com.rekoo.pubgm;
         com.riotgames.league.wildrift;
         com.riotgames.league.wildrifttw;
         com.riotgames.league.wildriftvn;
         com.riotgames.league.teamfighttactics;
         com.riotgames.league.teamfighttacticstw;
-        com.riotgames.league.teamfighttacticsvn;
-        com.tencent.ig;
-        com.tencent.tmgp.pubgmhd;
-        com.vng.pubgmobile
+        com.riotgames.league.teamfighttacticsvn
     "/>
     <packagesToChange name="OP9P" gms="false" packages="
         com.epicgames.fortnite;
@@ -163,19 +163,25 @@
         com.mobile.legends
     "/>
     <packagesToChange name="ROG6" gms="false" packages="
-        com.activision.callofduty.shooter;
         com.ea.gp.fifamobile;
+        com.gameloft.android.ANMP.GloftA9HM;
         com.madfingergames.legends;
         com.pearlabyss.blackdesertm;
         com.pearlabyss.blackdesertm.gl
     "/>
-    <packagesToChange name="XP5" gms="false" packages="
+    <packagesToChange name="S24U" gms="false" packages="
+        com.pubg.imobile;
+        com.pubg.krmobile;
+        com.rekoo.pubgm;
+        com.tencent.ig;
+        com.tencent.tmgp.pubgmhd;
+        com.vng.pubgmobile
+    "/>
+    <packagesToChange name="Y700" gms="false" packages="
+        com.activision.callofduty.shooter;
         com.garena.game.codm;
         com.tencent.tmgp.kr.codm;
         com.vng.codmvn
-    "/>
-    <packagesToChange name="XP1" gms="false" packages="
-        com.gameloft.android.ANMP.GloftA9HM
     "/>
     <packagesToChange name="Meizu16P" gms="false" packages="
         com.netease.cloudmusic;
