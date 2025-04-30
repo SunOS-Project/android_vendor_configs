@@ -4,6 +4,6 @@ PRODUCT_COPY_FILES += \
     vendor/configs/pixelworks_apps.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/pixelworks_apps.xml \
     vendor/configs/vibration_effect_map.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/vibration_effect_map.xml
 PRODUCT_SYSTEM_PROPERTIES += \
-    persist.sys.nameless.uri.iris=https://gist.githubusercontent.com/cjh1249131356/c60f506c701450e167d9b272c0d7a068/raw \
-    persist.sys.nameless.uri.props=https://gist.githubusercontent.com/cjh1249131356/cb598682718e5e76e2d51d72bb30e310/raw \
-    persist.sys.nameless.uri.vibration=https://gist.githubusercontent.com/cjh1249131356/b6cea6dfbe3429c1e6bbbeed0b5c51a0/raw
+    persist.sys.sun.uri.iris=https://gist.githubusercontent.com/chandu078/dcbb70c3595a943798237cf318fd1005/raw \
+    persist.sys.sun.uri.props=https://gist.githubusercontent.com/chandu078/a8ece0bdcdbc9eb664b625f09763334d/raw \
+    persist.sys.sun.uri.vibration=https://gist.githubusercontent.com/chandu078/8b33242ce64e062589873f99d3afa183/raw
