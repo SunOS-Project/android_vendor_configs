@@ -5,7 +5,7 @@
 -->
 <filter-conf>
 
-    <info version="3" timestamp="1741714000" />
+    <info version="3" timestamp="1743014000" />
 
     <!-- Props to change starts -->
     <propsToChange name="Generic" props="
@@ -18,12 +18,12 @@
         MANUFACTURER:Google;
         BRAND:google;
         MODEL:Pixel 9;
-        FINGERPRINT:google/tokay_beta/tokay:16/BP22.250221.015/13278879:user/release-keys;
+        FINGERPRINT:google/tokay_beta/tokay:16/BP22.250325.012/13467521:user/release-keys;
         [VERSION_INT]DEVICE_INITIAL_SDK_INT:21;
-        [VERSION_STRING]INCREMENTAL:13218340;
+        [VERSION_STRING]INCREMENTAL:13467521;
         [VERSION_STRING]RELEASE:16;
-        [VERSION_STRING]SECURITY_PATCH:2025-03-05;
-        ID:BP22.250221.015
+        [VERSION_STRING]SECURITY_PATCH:2025-04-05;
+        ID:BP22.250325.012
     "/>
     <propsToChange name="Default" props="
         BRAND:google;
